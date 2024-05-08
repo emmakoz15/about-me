@@ -1,0 +1,152 @@
+html{
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* landing page */
+  #lp{
+  color:white;
+  
+  
+  }
+  
+  #lpbg{
+  background-color: black;
+    color: white;
+  }
+  
+  #welcome{
+    width: 12rem;
+    height:5rem;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 60px;
+    border: solid white 3px;
+    color: white;
+      animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    10% {border-color: #EEF1EF;}
+    
+  
+  
+    25% {border-color: #7692FF;}
+  
+    50% {border-color: #232ED1;}
+    75% {border-color: #7692FF;}
+    90% {border-color: #EEF1EF;}
+    100%{border-color: #ffffff;}
+  }
+  
+  
+  .move{
+    position:fixed;
+    top: 50%;
+    margin-left: 1rem;
+  }
+  
+  
+  #center{
+  font-size:5rem;
+    font-family: "bungee", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+    color:white;
+  }
+  
+  
+  .navbar{
+  background-color: #b1b1b1 ;
+  }
+  
+  .navbar-collapse{
+    text-align: center;
+  }
+  
+  a{
+    color:#DEE2E6 !important;
+  }
+  
+  footer{
+    background-color: #141719;
+    width: 100%;
+    height:10rem;
+  margin: 0px;
+    color:#DEE2E6 ;
+    
+  }
+  
+  
+  /* page 1 */
+  .home{
+    background-image: url("white-contour-c990a61f.svg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+  }
+  
+  #pic{
+    width: 20rem;
+    height: 25rem;
+  }
+  #picme{
+  width: 80%;
+    height:80% ;
+  }
+  
+  .space{
+    height: 10rem;  
+    width:100%
+  }
+  
+  .tooclose{
+    margin-left: 3rem;
+  }
+  h3{
+    font-family: 'Josefin Sans', sans-serif;
+  
+  }
+  /* page 2 */
+  .ih{
+      background-image: url("ios-13-stock-dark-green-black-background-amoled-ipad-hd-1920x1080-791.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+  }
+  
+  /* page 3 */
+  .ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.7;
+    z-index: 999;
+  }
+  .soppage{
+    height: 100%;
+    width:100%;
+  background-color: black;
+  }
+  
+  .bg{
+    background-color: black;
+    text-align: center;
+  }
+  .wsize{
+    width: 100%;
+    height: 100%;
+      background-color:transparent;
+    border-radius: 60px;
+    border: none;
+  }
+  .wwsize{
+  width: 24rem;
+  height: 12rem;
+  }
+  #project{
+    border-radius: 20px;
+    border: none;
+    width: 25rem;
+  height: 13rem;
+    background-color: black;
+    
+  }
